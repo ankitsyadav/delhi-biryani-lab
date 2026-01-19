@@ -32,4 +32,4 @@ jobs:
 
       # Step 6: Cook the food
       - name: Cook Food (Build)
-        run: npm run buildx
+        run: npm run build
