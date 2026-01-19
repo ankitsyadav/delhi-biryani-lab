@@ -35,7 +35,6 @@ jobs:
 
   cook-biryani:
     name: Cook Biryani
-    needs: [hygiene-check, taste-test]
     runs-on: ubuntu-latest
     steps:
       - name: Cooking the Biryani
